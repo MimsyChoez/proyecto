@@ -1,0 +1,92 @@
+@import url("fuentes.css");
+
+/*--- Estilos generales ---*/
+
+body  {
+	background:#000000
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:#fff;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#wrap{
+			width:960px;
+			margin:auto;
+			clear:both;
+}
+
+/*--- Header ---*/
+
+
+header {
+        margin:auto;
+        width:50%;
+		float:;
+		background: #f9edf9; /* Old browsers */
+		background: -moz-linear-gradient(top,  #f9edf9 0%, #f7bee4 30%, #f9acde 65%, #ff99de 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9edf9), color-stop(30%,#f7bee4), color-stop(65%,#f9acde), color-stop(100%,#ff99de)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9edf9', endColorstr='#ff99de',GradientType=0 ); /* IE6-9 */
+
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+#subheader{
+            margin:auto;
+            width:700px;
+            font-family:Arial, Helvetica, sans-serif;
+}
+            
+ul, ol {
+      list-style:none;
+}
+            
+.nav {
+      width:700px; /*Le establecemos un ancho*/
+      margin:0 auto; /*Centramos automaticamente*/
+            }
+ 
+.nav > li {
+        float:left;
+}
+            
+.nav li a {
+                background-color:none;
+                color:#fff;
+                text-decoration:none;
+                padding:10px 12px;
+                display:block;
+}
+            
+.nav li a:hover {
+                background-color:#434343;
+}
+            
+.nav li ul {
+                display:none;
+                position:absolute;
+                min-width:140px;
+}
+            
+.nav li:hover > ul {
+                display:block;
+}
+            
+.nav li ul li {
+                position:relative;
+}
+            
+ .nav li ul li ul {
+                right:-140px;
+                top:0px;
+}
