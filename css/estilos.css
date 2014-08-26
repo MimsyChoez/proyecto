@@ -26,6 +26,14 @@ a:hover {
 /*--- Header ---*/
 
 
+title  {
+            margin:auto;
+            width:700px;
+            font-family:sweet-serif;
+			font-size:20px;
+			font-weight:bolder;
+}
+
 header {
         margin:auto;
         width:50%;
