@@ -1,3 +1,4 @@
+@import url("reset.css");
 @import url("fuentes.css");
 
 /*--- Estilos generales ---*/
@@ -30,21 +31,23 @@ header {
         width:50%;
 		float:;
 		background: #f9edf9; /* Old browsers */
-		background: -moz-linear-gradient(top,  #f9edf9 0%, #f7bee4 30%, #f9acde 65%, #ff99de 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9edf9), color-stop(30%,#f7bee4), color-stop(65%,#f9acde), color-stop(100%,#ff99de)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9edf9', endColorstr='#ff99de',GradientType=0 ); /* IE6-9 */
+			background: -moz-linear-gradient(top,  #f9edf9 0%, #f7bee4 30%, #f9acde 65%, #ff99de 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9edf9), color-stop(30%,#f7bee4), color-stop(65%,#f9acde), color-stop(100%,#ff99de)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #f9edf9 0%,#f7bee4 30%,#f9acde 65%,#ff99de 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9edf9', endColorstr='#ff99de',GradientType=0 ); /* IE6-9 */
 
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:sweet;
 }
 
 #subheader{
             margin:auto;
             width:700px;
-            font-family:Arial, Helvetica, sans-serif;
+            font-family:sweet-serif;
+			font-size:20px;
+			font-weight:bolder;
 }
             
 ul, ol {
@@ -69,7 +72,14 @@ ul, ol {
 }
             
 .nav li a:hover {
-                background-color:#434343;
+            border-radius:10px;
+				-moz-border-radius:10px;
+				-webkit-border-radius:10px;
+			box-shadow:0px 4px 4px #000;
+				-moz-box-shadow:0px 4px 4px #000;
+				-webkit-box-shadow:0px 4px 4px #000;
+				background-color:#F5A9BC;
+				opacity:50px;
 }
             
 .nav li ul {
@@ -90,6 +100,54 @@ ul, ol {
                 right:-140px;
                 top:0px;
 }
+
+
+/*--- Main ---*/
+
+#main {
+	width:100%;
+	margin:40px 0px 0px 0px;
+	float:left;
+}
+
+/*--- Main ---*/
+
+#bienvenidos {
+	width:920px;
+	float:left;
+	padding:30px;
+	background: #ffc578; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffc578 0%, #fb9d23 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffc578), color-stop(100%,#fb9d23)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffc578 0%,#fb9d23 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffc578 0%,#fb9d23 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffc578 0%,#fb9d23 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #ffc578 0%,#fb9d23 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+
+	margin:30px 0px;
+	border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+	box-shadow:0px 2px 2px #000;
+		-moz-box-shadow:0px 2px 2px #000;
+		-webkit-box-shadow:0px 2px 2px #000;
+}
+
+#bienvenidos article h3 {
+	font-family:sweet-serif;
+	color:#FF0080;
+	font-size:60px;
+	margin-bottom:20px;
+}
+
+#bienvenidos article {
+	font-family:cupcake;
+	font-size:20px;
+	color:#fff;
+	line-height:40px;
+}
+
 /*--- Formulario ---*/
 
 #formulario{
@@ -161,7 +219,38 @@ body{
     background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
 }
 
-/*--- Galeria Bodas ---*/
+/*--- Galeria Grupales ---*/
+
+div.img {
+	font-family:sweet;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid #FFFF00;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #FFFF00;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+
+/*--- Galerias ---*/
 
 #ex5 {
 width: 700px;

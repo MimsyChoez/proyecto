@@ -1,1 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@font-face{
+	font-family:sweet-serif;
+	src: url(../fuentes/sweet/sweet&sassyserif.ttf);
+}
+
+@font-face{
+	font-family:sweet;
+	src: url(../fuentes/sweet/sweetiehand.ttf);
+}
+
+@font-face{
+	font-family:cupcake;
+	src: url(../fuentes/cupcake/CupcakeFont.ttf);
+}
